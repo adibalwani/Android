@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="orange">#F7C19C</color>
+    <color name="green">#4CAF50</color>
+    <color name="red">#FF5555</color>
+    <color name="leaderboardbackground">#FFC871</color>
+    <color name="buttoncolor">#E26F20</color>
+    <color name="white">#FFFFFF</color>
+    <!--<color name="leaderboard_button_selected">#B34000</color>-->
+</resources>

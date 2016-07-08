@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.neu.madcourse.adibalwani.finalproject">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".leaderboard.LeaderBoardActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".GameActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".tutorial.StartTutorialActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

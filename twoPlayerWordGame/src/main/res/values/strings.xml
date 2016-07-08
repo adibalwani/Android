@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">twoPlayerWordGame</string>
+    <string name="twoplayerwordgame_titlebar_name">Two Player Word Game</string>
+    <string name="twoplayerwordgame_compact_name">Word Game</string>
+
+    <!-- Button labels -->
+    <string name="twoplayerwordgame_quit_label">Quit</string>
+    <string name="twoplayerwordgame_public_match_label">Public Match</string>
+    <string name="twoplayerwordgame_private_match_label">Private Match</string>
+    <string name="twoplayerwordgame_create_profile_label">Create Profile</string>
+    <string name="twoplayerwordgame_delete_profile_label">Delete Profile</string>
+    <string name="twoplayerwordgame_pause_label">Pause</string>
+    <string name="twoplayerwordgame_music_on_label">Turn Music ON</string>
+    <string name="twoplayerwordgame_music_off_label">Turn Music OFF</string>
+    <string name="twoplayerwordgame_continue_label">Resume Game</string>
+    <string name="twoplayerwordgame_leaderboard_label">Leaderboard</string>
+    <string name="twoplayerwordgame_acknowledgements_label">Acknowledgements</string>
+    <string name="twoplayerwordgame_instructions_label">Instructions</string>
+
+    <!-- RegisterDialogFragment labels -->
+    <string name="twoplayerwordgame_register_dialog_title">Create Profile</string>
+    <string name="twoplayerwordgame_register_dialog_edittext_hint">Choose Username:</string>
+    <string name="twoplayerwordgame_register_label">Register</string>
+
+    <!-- WaitDialogFragment labels -->
+    <string name="twoplayerwordgame_wait_dialog_name">Your Name :</string>
+    <string name="twoplayerwordgame_wait_dialog_waiting">Waiting for other players...</string>
+    <string name="twoplayerwordgame_wait_dialog_end">Quit</string>
+
+    <!-- PrivateMatchDialogFragment labels -->
+    <string name="twoplayerwordgame_private_match_dialog_title">Private Match</string>
+    <string name="twoplayerwordgame_private_match_dialog_join_game">Join Game</string>
+    <string name="twoplayerwordgame_private_match_dialog_host_game">Host Game</string>
+    <string name="twoplayerwordgame_private_match_dialog_end">Quit</string>
+
+    <!-- JoinGameDialogFragment labels -->
+    <string name="twoplayerwordgame_join_game_dialog_title">Join Game</string>
+    <string name="twoplayerwordgame_join_game_dialog_search">Search</string>
+    <string name="twoplayerwordgame_join_game_dialog_username_hint">Player to join</string>
+
+    <!-- EndGameDialogFragment labels -->
+    <string name="twoplayerwordgame_end_game_label">End Game</string>
+
+    <!-- WaitForTurnDialogFragment labels -->
+    <string name="twoplayerwordgame_wait_for_turn_dialog_waiting">Waiting for your turn...</string>
+
+    <!-- LeaderboardFragment labels -->
+    <string name="twoplayerwordgame_leaderboard_dialog_title">Leaderboard</string>
+    <string name="twoplayerwordgame_leaderboard_dialog_end">Quit</string>
+    <string name="twoplayerwordgame_leaderboard_dialog_player">Player</string>
+    <string name="twoplayerwordgame_leaderboard_dialog_date">Date</string>
+    <string name="twoplayerwordgame_leaderboard_dialog_score">Score</string>
+    <string name="twoplayerwordgame_leaderboard_dialog_partner">Partner</string>
+
+    <!-- AcknowledgmentFragment labels -->
+    <string name="twoplayerwordgame_about_ok">OK</string>
+    <string name="twoplayerwordgame_stack_overflow_link">http://stackoverflow.com</string>
+    <string name="twoplayerwordgame_stack_overflow">1) Stack Overflow:</string>
+    <string name="twoplayerwordgame_linux_manual_link">http://linux.die.net/man</string>
+    <string name="twoplayerwordgame_linux_manual">2) Manual for parsing input file into splits:</string>
+    <string name="twoplayerwordgame_developer_guide_link">http://developer.android.com</string>
+    <string name="twoplayerwordgame_developer_guide">3) Developer Guide:</string>
+    <string name="twoplayerwordgame_list_view_link">http://androidexample.com</string>
+    <string name="twoplayerwordgame_list_view">4) ListView Example:</string>
+    <string name="twoplayerwordgame_music_link">http://orangefreesounds.com/drum-and-bass-loop</string>
+    <string name="twoplayerwordgame_music_view">5) Background Music:</string>
+    <string name="twoplayerwordgame_utt_view">6) Ultimate TicTacToe Example (from Texbook)</string>
+    <string name="twoplayerwordgame_gcm_example_link">https://github.com/dharammaniar/Android-Examples</string>
+    <string name="twoplayerwordgame_gcm_example">7) GCM example:</string>
+    <string name="twoplayerwordgame_firebase_example_link">https://github.com/deryl27/FireBaseDemo</string>
+    <string name="twoplayerwordgame_firebase_example">8) Firebase example:</string>
+    <string name="twoplayerwordgame_shake_example_link">http://jasonmcreynolds.com/?p=388</string>
+    <string name="twoplayerwordgame_shake_example">9) Shake detection example:</string>
+
+    <!-- InstructionsFragment labels -->
+    <string name="twoplayerwordgame_instruction_one">1) Find the longest word in each small boggle board within 1.5 minutes</string>
+    <string name="twoplayerwordgame_instruction_two">2) To select an available letter (green color), click on it</string>
+    <string name="twoplayerwordgame_instruction_three">3) Letters once selected, cannot be selected again</string>
+    <string name="twoplayerwordgame_instruction_four">4) To lock the grid, press one of the selected letters (yellow color)</string>
+    <string name="twoplayerwordgame_instruction_five">5) Once the grid is locked, the remaining letters in that grid disappears</string>
+    <string name="twoplayerwordgame_instruction_six">6) For the next 1.5 minutes, find the longest word in the large boggle board</string>
+    <string name="twoplayerwordgame_instruction_seven">7) Each available letter in the large board can be selected by clicking on it</string>
+    <string name="twoplayerwordgame_instruction_eight">8) Selected letters can be picked again, but not back to back</string>
+    <string name="twoplayerwordgame_instruction_nine">9) To make a new word, click on the currently formed word shown above the grid</string>
+    <string name="twoplayerwordgame_instruction_ten">10) Shake the device to skip your turn</string>
+
+    <!-- SessionQuitFragment labels -->
+    <string name="twoplayerwordgame_session_quit_dialog_title">Do you want to end the previous game session?</string>
+    <string name="twoplayerwordgame_session_quit_dialog_yes">Yes</string>
+    <string name="twoplayerwordgame_session_quit_dialog_no">No</string>
+
+    <!-- TextView Labels -->
+    <string name="twoplayerwordgame_score_label">Score \u0020</string>
+    <string name="twoplayerwordgame_timer_label">Time \u0020</string>
+
+    <!-- Init Values -->
+    <string name="twoplayerwordgame_score_init">00</string>
+    <string name="twoplayerwordgame_timer_init">0:00</string>
+</resources>

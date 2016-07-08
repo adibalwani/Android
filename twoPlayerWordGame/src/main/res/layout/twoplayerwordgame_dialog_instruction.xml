@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/twoplayerwordgame_dialog_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:text="@string/twoplayerwordgame_instructions_label"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_instruction_one"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_instruction_two"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_instruction_three"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_instruction_four"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_instruction_five"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_instruction_six"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_instruction_seven"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_instruction_eight"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_instruction_nine"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_instruction_ten"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding" />
+
+    </LinearLayout>
+
+</ScrollView>

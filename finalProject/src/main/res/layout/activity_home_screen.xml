@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view_activity_home_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ripple_material_light"
+    android:orientation="vertical"
+    tools:context="edu.neu.madcourse.adibalwani.finalproject.HomeScreenActivity">
+
+    <ImageView
+        android:id="@+id/main_Screen_text_virtual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:src="@drawable/virtual" />
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="-20dp"
+        android:weightSum="6">
+
+        <ImageView
+            android:id="@+id/main_screen_text_basket"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_below="@+id/virtual"
+            android:layout_weight="1"
+            android:src="@drawable/basket"/>
+
+        <ImageView
+            android:id="@+id/main_screen_basket_ball"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/basket"
+            android:layout_marginRight="10dp"
+            android:layout_weight="5"
+            android:src="@drawable/basketball"/>
+
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5.5">
+
+            <Button
+                android:id="@+id/home_screen_resume_game"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="@string/resume_game"/>
+
+            <Button
+                android:id="@+id/home_screen_new_game"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="@string/new_game"/>
+
+            <Button
+                android:id="@+id/home_screen_leaderboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="@string/leaderboard"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="4.5"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/netright"
+                android:layout_weight="9"/>
+
+            <TextView
+                android:id="@+id/home_screen_play_tutorial"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/buttoncolor"
+                android:text="@string/play_tutorial"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

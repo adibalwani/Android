@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:text="@string/twoplayerwordgame_leaderboard_dialog_title"
+        android:gravity="center"
+        android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="0,1,2,3">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:gravity="center"
+                android:text="@string/twoplayerwordgame_leaderboard_dialog_player"
+                android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:gravity="center"
+                android:text="@string/twoplayerwordgame_leaderboard_dialog_date"
+                android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:gravity="center"
+                android:text="@string/twoplayerwordgame_leaderboard_dialog_score"
+                android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:gravity="center"
+                android:text="@string/twoplayerwordgame_leaderboard_dialog_partner"
+                android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <ListView
+        android:id="@+id/twoplayerwordgame_leaderboard_dialog_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

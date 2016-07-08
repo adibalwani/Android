@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <ProgressBar
+        android:id="@+id/wordgame_progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        style="@android:style/Widget.ProgressBar.Horizontal"/>
+
+    <RelativeLayout
+        android:id="@+id/wordgame_game_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/wordgame_timer_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/wordgame_border"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:padding="@dimen/small_board_padding"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wordgame_timer_label"/>
+
+            <TextView
+                android:id="@+id/wordgame_timer"
+                android:layout_width="wrap_content"
+                android:text="@string/wordgame_timer_init"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/wordgame_pause_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wordgame_pause_label"
+            style="@android:style/Widget.Button.Small"
+            android:minHeight="0dp"
+            android:layout_marginTop="-5dp"
+            android:layout_marginBottom="-5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignBottom="@+id/wordgame_timer_frame" />
+
+        <LinearLayout
+            android:id="@+id/wordgame_score_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/wordgame_border"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/small_board_padding"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wordgame_score_label"/>
+
+            <TextView
+                android:id="@+id/wordgame_score"
+                android:layout_width="wrap_content"
+                android:text="@string/wordgame_score_init"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <fragment
+            android:id="@+id/wordgame_fragment_game"
+            class="edu.neu.madcourse.adibalwani.wordgame.GameFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            tools:layout="@layout/wordgame_fragment_game"/>
+
+        <TextView
+            android:id="@+id/wordgame_word_formed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/wordgame_border"
+            android:padding="@dimen/small_board_padding"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_above="@id/wordgame_fragment_game"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"/>
+
+        <ListView
+            android:id="@+id/wordgame_word_list_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_above="@id/wordgame_word_formed"
+            android:layout_below="@id/wordgame_pause_button"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

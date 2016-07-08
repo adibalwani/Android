@@ -1,0 +1,902 @@
+--------- beginning of main
+E/Zygote  (28196): MountEmulatedStorage()
+E/Zygote  (28196): v2
+E/SELinux (28196): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/AndroidRuntime(28126): FATAL EXCEPTION: Thread-22258
+E/AndroidRuntime(28126): Process: edu.neu.madcourse.adibalwani, PID: 28126
+E/AndroidRuntime(28126): java.lang.ArrayIndexOutOfBoundsException: length=33337; index=33337
+E/AndroidRuntime(28126): 	at edu.neu.madcourse.adibalwani.wordgame.GameFragment$Dictionary.loadDictionary(GameFragment.java:351)
+E/AndroidRuntime(28126): 	at edu.neu.madcourse.adibalwani.wordgame.GameFragment$Dictionary.run(GameFragment.java:383)
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/ViewSystem( 3147): ViewRootImpl #2 Surface is not valid.
+E/Zygote  (28345): MountEmulatedStorage()
+E/Zygote  (28345): v2
+E/JavaBinder( 3147): *** Uncaught remote exception!  (Exceptions are not yet supported across processes.)
+E/JavaBinder( 3147): java.lang.IndexOutOfBoundsException: Invalid index 1, size is 1
+E/JavaBinder( 3147): 	at java.util.ArrayList.throwIndexOutOfBoundsException(ArrayList.java:255)
+E/JavaBinder( 3147): 	at java.util.ArrayList.get(ArrayList.java:308)
+E/JavaBinder( 3147): 	at com.android.server.am.ActivityStack.finishTopRunningActivityLocked(ActivityStack.java:3497)
+E/JavaBinder( 3147): 	at com.android.server.am.ActivityStackSupervisor.finishTopRunningActivityLocked(ActivityStackSupervisor.java:3423)
+E/JavaBinder( 3147): 	at com.android.server.am.ActivityManagerService.handleAppCrashLocked(ActivityManagerService.java:14752)
+E/JavaBinder( 3147): 	at com.android.server.am.ActivityManagerService.makeAppCrashingLocked(ActivityManagerService.java:14625)
+E/JavaBinder( 3147): 	at com.android.server.am.ActivityManagerService.crashApplication(ActivityManagerService.java:15391)
+E/JavaBinder( 3147): 	at com.android.server.am.ActivityManagerService.handleApplicationCrashInner(ActivityManagerService.java:14899)
+E/JavaBinder( 3147): 	at com.android.server.am.ActivityManagerService.handleApplicationCrash(ActivityManagerService.java:14881)
+E/JavaBinder( 3147): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1459)
+E/JavaBinder( 3147): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:3150)
+E/JavaBinder( 3147): 	at android.os.Binder.execTransact(Binder.java:446)
+E/SELinux (28345): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+E/SQLiteLog( 5813): (284) automatic index on crash_info_summary(package_name_touched)
+E/Zygote  (28886): MountEmulatedStorage()
+E/Zygote  (28886): v2
+E/SELinux (28886): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+E/GMPM    (28886): getGoogleAppId failed with status: 10
+E/GMPM    (28886): Uploading is not possible. App measurement disabled
+E/MtpServerJNI( 5320): server is null in send_object_removed
+E/ctxmgr  ( 4204): [PowerConnectionProducer]Could not write powerInfo=Plug state: 2 BatteryLevel: 0.77, status=Status{statusCode=unknown status code: 7503, resolution=null}
+E/Zygote  (32726): MountEmulatedStorage()
+E/Zygote  (32726): v2
+E/SELinux (32726): [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+E/SQLiteLog(32726): (283) recovered 88 frames from WAL file /data/data/com.google.android.gm/databases/mailstore.alwani.a@husky.neu.edu.db-wal
+E/SQLiteLog(32726): (283) recovered 30 frames from WAL file /data/data/com.google.android.gm/databases/mailstore.alwani.adib@gmail.com.db-wal
+E/SQLiteLog(32726): (283) recovered 102 frames from WAL file /data/data/com.google.android.gm/databases/mailstore.boeing777232@gmail.com.db-wal
+E/native  ( 3147): do suspend false
+E/WifiStateMachine( 3147): result: 0, Moved BSSID: 18:64:72:2c:d7:d0
+E/WifiStateMachine( 3147): WifiStateMachine: handleSuccessfulIpConfiguration and no scan results"NUwave"WPA_EAP
+E/AffinityControl( 2713): AffinityControl: registerfunction enter
+E/Zygote  ( 2758): MountEmulatedStorage()
+E/Zygote  ( 2758): v2
+E/SELinux ( 2758): [DEBUG] get_category: variable seinfo: shared sensitivity: NULL, cateogry: NULL
+E/Zygote  ( 2784): MountEmulatedStorage()
+E/Zygote  ( 2784): v2
+E/SELinux ( 2784): [DEBUG] get_category: variable seinfo: shared sensitivity: NULL, cateogry: NULL
+E/Zygote  ( 2803): MountEmulatedStorage()
+E/Zygote  ( 2803): v2
+E/SELinux ( 2803): [DEBUG] get_category: variable seinfo: shared sensitivity: NULL, cateogry: NULL
+E/SamsungIME( 4039): mOCRHelper is null
+E/Zygote  ( 2825): MountEmulatedStorage()
+E/Zygote  ( 2825): v2
+E/SELinux ( 2825): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/SamsungIME( 4039): mOCRHelper is null
+E/RCPManagerService( 3147):  PackageReceiver onReceive() Failed to load meta-data, NullPointer: Attempt to invoke virtual method 'java.lang.String android.os.Bundle.getString(java.lang.String)' on a null object reference
+E/Zygote  ( 2849): MountEmulatedStorage()
+E/Zygote  ( 2849): v2
+E/SELinux ( 2849): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/Zygote  ( 2871): MountEmulatedStorage()
+E/Zygote  ( 2871): v2
+E/SELinux ( 2871): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/Zygote  ( 2888): MountEmulatedStorage()
+E/Zygote  ( 2888): v2
+E/SELinux ( 2888): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/Zygote  ( 2905): MountEmulatedStorage()
+E/Zygote  ( 2905): v2
+E/SELinux ( 2905): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/Zygote  ( 2924): MountEmulatedStorage()
+E/Zygote  ( 2924): v2
+E/SELinux ( 2924): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/NetworkScheduler.SchedulerReceiver( 4204): Invalid parameter app
+E/NetworkScheduler.SchedulerReceiver( 4204): Invalid package name : Perhaps you didn't include a PendingIntent in the extras?
+E/Zygote  ( 2948): MountEmulatedStorage()
+E/Zygote  ( 2948): v2
+E/SELinux ( 2948): [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+E/Zygote  ( 2963): MountEmulatedStorage()
+E/Zygote  ( 2963): v2
+E/SELinux ( 2963): [DEBUG] get_category: variable seinfo: media sensitivity: NULL, cateogry: NULL
+E/SQLiteLog( 2963): (283) recovered 233 frames from WAL file /data/data/com.android.providers.media/databases/external.db-wal
+E/MtpServerJNI( 2963): could not open MTP driver, errno: 2
+E/MtpServerJNI( 2963): server is null in add_storage
+E/MtpServerJNI( 2963): server is null in run
+E/MtpServerJNI( 2963): server is null in cleanup
+E/MtpServerJNI( 2963): server is null in send_object_removed
+E/Zygote  ( 3013): MountEmulatedStorage()
+E/Zygote  ( 3013): v2
+E/SELinux ( 3013): [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+E/AffinityControl( 2980): AffinityControl: registerfunction enter
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/Zygote  ( 3030): MountEmulatedStorage()
+E/Zygote  ( 3030): v2
+E/SELinux ( 3030): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+E/art     ( 3030): Failed sending reply to debugger: Broken pipe
+E/AASAservice-TokenRule( 6400): parseToken() : TokenFile is null
+E/AASAservice-UpdateReceiver( 6400): AASARuleUpdateResult() : Rule file is not exist.
+E/FilterInstaller(11725): installFilters
+E/FilterInstaller(11725): There is no requred permission
+E/Zygote  ( 3079): MountEmulatedStorage()
+E/Zygote  ( 3079): v2
+E/SELinux ( 3079): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+E/GMPM    ( 3079): getGoogleAppId failed with status: 10
+E/GMPM    ( 3079): Uploading is not possible. App measurement disabled
+E/Zygote  ( 3144): MountEmulatedStorage()
+E/Zygote  ( 3144): v2
+E/SELinux ( 3144): [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+E/SysUtils( 3144): ApplicationContext is null in ApplicationStatus
+E/NetworkScheduler.SchedulerReceiver( 4204): Invalid parameter app
+E/NetworkScheduler.SchedulerReceiver( 4204): Invalid package name : Perhaps you didn't include a PendingIntent in the extras?
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/AndroidRuntime( 3030): FATAL EXCEPTION: Thread-22343
+E/AndroidRuntime( 3030): Process: edu.neu.madcourse.adibalwani, PID: 3030
+E/AndroidRuntime( 3030): java.lang.ArrayIndexOutOfBoundsException: length=60121; index=60121
+E/AndroidRuntime( 3030): 	at edu.neu.madcourse.adibalwani.wordgame.GameFragment$Dictionary.loadDictionary(GameFragment.java:351)
+E/AndroidRuntime( 3030): 	at edu.neu.madcourse.adibalwani.wordgame.GameFragment$Dictionary.run(GameFragment.java:383)
+E/android.os.Debug( 3147): ro.product_ship = true
+E/android.os.Debug( 3147): ro.debug_level = 0x4f4c
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/SQLiteLog( 2905): (284) automatic index on crash_info_summary(package_name_touched)
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/Zygote  ( 3553): MountEmulatedStorage()
+E/Zygote  ( 3553): v2
+E/SELinux ( 3553): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+E/OpenGLRenderer( 3147): SFEffectCache:clear(), mSize = 0
+E/ViewRootImpl( 3147): sendUserActionEvent() mView == null
+E/Zygote  ( 3584): MountEmulatedStorage()
+E/Zygote  ( 3584): v2
+E/SELinux ( 3584): [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+E/SQLiteLog( 3584): (1) no such table: mmsconfig
+E/Babel_SMS( 3584): canonicalizeMccMnc: invalid mccmnc nullnull
+E/Zygote  ( 3703): MountEmulatedStorage()
+E/Zygote  ( 3703): v2
+E/SELinux ( 3703): [DEBUG] get_category: variable seinfo: release sensitivity: NULL, cateogry: NULL
+E/Zygote  ( 3723): MountEmulatedStorage()
+E/Zygote  ( 3723): v2
+E/SELinux ( 3723): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/Zygote  ( 3748): MountEmulatedStorage()
+E/Zygote  ( 3748): v2
+E/SELinux ( 3748): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/Zygote  ( 3775): MountEmulatedStorage()
+E/Zygote  ( 3775): v2
+E/SELinux ( 3775): [DEBUG] get_category: variable seinfo: release sensitivity: NULL, cateogry: NULL
+E/Zygote  ( 4412): MountEmulatedStorage()
+E/Zygote  ( 4412): v2
+E/SELinux ( 4412): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+E/GMPM    ( 4412): getGoogleAppId failed with status: 10
+E/GMPM    ( 4412): Uploading is not possible. App measurement disabled
+E/MtpServerJNI( 2963): server is null in send_object_removed
+E/ctxmgr  ( 4204): [PowerConnectionProducer]Could not write powerInfo=Plug state: 2 BatteryLevel: 0.78, status=Status{statusCode=unknown status code: 7503, resolution=null}
+E/MtpServerJNI( 2963): server is null in send_object_removed
+E/ctxmgr  ( 4204): [PowerConnectionProducer]Could not write powerInfo=Plug state: 2 BatteryLevel: 0.79, status=Status{statusCode=unknown status code: 7503, resolution=null}
+E/Zygote  (10184): MountEmulatedStorage()
+E/Zygote  (10184): v2
+E/SELinux (10184): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+E/SPPClientService(15042): [[PushClientService]] F:false, D:false, E:false, T:false, S:true, R:false
+E/MtpServerJNI( 2963): server is null in send_object_removed
+E/ctxmgr  ( 4204): [PowerConnectionProducer]Could not write powerInfo=Plug state: 2 BatteryLevel: 0.8, status=Status{statusCode=unknown status code: 7503, resolution=null}
+E/native  ( 3147): do suspend false
+E/WifiStateMachine( 3147): result: 0, Moved BSSID: 18:64:72:2c:d7:d0
+E/WifiStateMachine( 3147): WifiStateMachine: handleSuccessfulIpConfiguration and no scan results"NUwave"WPA_EAP
+E/AffinityControl(16933): AffinityControl: registerfunction enter
+E/Zygote  (16952): MountEmulatedStorage()
+E/Zygote  (16952): v2
+E/SELinux (16952): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/Zygote  (17007): MountEmulatedStorage()
+E/Zygote  (17007): v2
+E/SELinux (17007): [DEBUG] get_category: variable seinfo: shared sensitivity: NULL, cateogry: NULL
+E/Zygote  (17024): MountEmulatedStorage()
+E/Zygote  (17024): v2
+E/SELinux (17024): [DEBUG] get_category: variable seinfo: shared sensitivity: NULL, cateogry: NULL
+E/Zygote  (17047): MountEmulatedStorage()
+E/Zygote  (17047): v2
+E/SELinux (17047): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/SamsungIME( 4039): mOCRHelper is null
+E/SamsungIME( 4039): mOCRHelper is null
+E/RCPManagerService( 3147):  PackageReceiver onReceive() Failed to load meta-data, NullPointer: Attempt to invoke virtual method 'java.lang.String android.os.Bundle.getString(java.lang.String)' on a null object reference
+E/Zygote  (17066): MountEmulatedStorage()
+E/Zygote  (17066): v2
+E/SELinux (17066): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/Zygote  (17087): MountEmulatedStorage()
+E/Zygote  (17087): v2
+E/SELinux (17087): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/Zygote  (17103): MountEmulatedStorage()
+E/Zygote  (17103): v2
+E/SELinux (17103): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/Zygote  (17119): MountEmulatedStorage()
+E/Zygote  (17119): v2
+E/SELinux (17119): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/Zygote  (17136): MountEmulatedStorage()
+E/Zygote  (17136): v2
+E/SELinux (17136): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/Zygote  (17154): MountEmulatedStorage()
+E/Zygote  (17154): v2
+E/SELinux (17154): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/Zygote  (17167): MountEmulatedStorage()
+E/Zygote  (17167): v2
+E/SELinux (17167): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/SQLiteLog(17167): (284) automatic index on titles(filter_id)
+E/NetworkScheduler.SchedulerReceiver( 4204): Invalid parameter app
+E/NetworkScheduler.SchedulerReceiver( 4204): Invalid package name : Perhaps you didn't include a PendingIntent in the extras?
+E/Zygote  (17189): MountEmulatedStorage()
+E/Zygote  (17189): v2
+E/SELinux (17189): [DEBUG] get_category: variable seinfo: samsung sensitivity: NULL, cateogry: NULL
+E/SPPClientService(17189): ShipBuild Binary : True
+E/Zygote  (17207): MountEmulatedStorage()
+E/Zygote  (17207): v2
+E/SELinux (17207): [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+E/AASAservice-TokenRule( 6400): parseToken() : TokenFile is null
+E/AASAservice-UpdateReceiver( 6400): AASARuleUpdateResult() : Rule file is not exist.
+E/Zygote  (17246): MountEmulatedStorage()
+E/Zygote  (17246): v2
+E/SELinux (17246): [DEBUG] get_category: variable seinfo: samsung sensitivity: NULL, cateogry: NULL
+E/Zygote  (17264): MountEmulatedStorage()
+E/Zygote  (17264): v2
+E/SELinux (17264): [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+E/FilterInstaller(17136): installFilters
+E/FilterInstaller(17136): There is no requred permission
+E/Zygote  (17284): MountEmulatedStorage()
+E/Zygote  (17284): v2
+E/SELinux (17284): [DEBUG] get_category: variable seinfo: samsung sensitivity: NULL, cateogry: NULL
+E/Zygote  (17310): MountEmulatedStorage()
+E/Zygote  (17310): v2
+E/SELinux (17310): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+E/GMPM    (17310): getGoogleAppId failed with status: 10
+E/GMPM    (17310): Uploading is not possible. App measurement disabled
+E/Zygote  (17353): MountEmulatedStorage()
+E/Zygote  (17353): v2
+E/SELinux (17353): [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+E/SysUtils(17353): ApplicationContext is null in ApplicationStatus
+E/NetworkScheduler.SchedulerReceiver( 4204): Invalid parameter app
+E/NetworkScheduler.SchedulerReceiver( 4204): Invalid package name : Perhaps you didn't include a PendingIntent in the extras?
+E/Zygote  (17458): MountEmulatedStorage()
+E/Zygote  (17458): v2
+E/SELinux (17458): [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+E/SQLiteLog(17458): (1) no such table: mmsconfig
+E/Babel_SMS(17458): canonicalizeMccMnc: invalid mccmnc nullnull
+E/Zygote  (17492): MountEmulatedStorage()
+E/Zygote  (17492): v2
+E/SELinux (17492): [DEBUG] get_category: variable seinfo: release sensitivity: NULL, cateogry: NULL
+E/Zygote  (17512): MountEmulatedStorage()
+E/Zygote  (17512): v2
+E/SELinux (17512): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/Zygote  (17527): MountEmulatedStorage()
+E/Zygote  (17527): v2
+E/SELinux (17527): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/Zygote  (17549): MountEmulatedStorage()
+E/Zygote  (17549): v2
+E/SELinux (17549): [DEBUG] get_category: variable seinfo: release sensitivity: NULL, cateogry: NULL
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/Zygote  (17583): MountEmulatedStorage()
+E/Zygote  (17583): v2
+E/SELinux (17583): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/Zygote  (17599): MountEmulatedStorage()
+E/Zygote  (17599): v2
+E/SELinux (17599): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/AndroidRuntime(17599): FATAL EXCEPTION: Thread-22519
+E/AndroidRuntime(17599): Process: edu.neu.madcourse.adibalwani, PID: 17599
+E/AndroidRuntime(17599): java.lang.ArrayIndexOutOfBoundsException: length=60121; index=60121
+E/AndroidRuntime(17599): 	at edu.neu.madcourse.adibalwani.wordgame.GameFragment$Dictionary.loadDictionary(GameFragment.java:351)
+E/AndroidRuntime(17599): 	at edu.neu.madcourse.adibalwani.wordgame.GameFragment$Dictionary.run(GameFragment.java:383)
+E/android.os.Debug( 3147): ro.product_ship = true
+E/android.os.Debug( 3147): ro.debug_level = 0x4f4c
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/SQLiteLog( 2905): (284) automatic index on crash_info_summary(package_name_touched)
+E/Zygote  (17696): MountEmulatedStorage()
+E/Zygote  (17696): v2
+E/SELinux (17696): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+E/OpenGLRenderer( 3147): SFEffectCache:clear(), mSize = 0
+E/ViewRootImpl( 3147): sendUserActionEvent() mView == null
+E/MtpServerJNI( 2963): server is null in send_object_removed
+E/ctxmgr  ( 4204): [PowerConnectionProducer]Could not write powerInfo=Plug state: 2 BatteryLevel: 0.81, status=Status{statusCode=unknown status code: 7503, resolution=null}
+E/Zygote  (18850): MountEmulatedStorage()
+E/Zygote  (18850): v2
+E/SELinux (18850): [DEBUG] get_category: variable seinfo: samsung sensitivity: NULL, cateogry: NULL
+E/SPPClientService(18850): ShipBuild Binary : True
+E/SPPClientService(15042): [b] __PingReply__
+E/MtpServerJNI( 2963): server is null in send_object_removed
+E/ctxmgr  ( 4204): [PowerConnectionProducer]Could not write powerInfo=Plug state: 2 BatteryLevel: 0.82, status=Status{statusCode=unknown status code: 7503, resolution=null}
+E/Zygote  (22877): MountEmulatedStorage()
+E/Zygote  (22877): v2
+E/SELinux (22877): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+E/SPPClientService(15042): [[PushClientService]] F:false, D:false, E:false, T:false, S:true, R:false
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/AndroidRuntime(17696): FATAL EXCEPTION: Thread-22522
+E/AndroidRuntime(17696): Process: edu.neu.madcourse.adibalwani, PID: 17696
+E/AndroidRuntime(17696): java.lang.ArrayIndexOutOfBoundsException: length=60121; index=60121
+E/AndroidRuntime(17696): 	at edu.neu.madcourse.adibalwani.wordgame.GameFragment$Dictionary.loadDictionary(GameFragment.java:351)
+E/AndroidRuntime(17696): 	at edu.neu.madcourse.adibalwani.wordgame.GameFragment$Dictionary.run(GameFragment.java:383)
+E/android.os.Debug( 3147): ro.product_ship = true
+E/android.os.Debug( 3147): ro.debug_level = 0x4f4c
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/Zygote  (25836): MountEmulatedStorage()
+E/Zygote  (25836): v2
+E/SELinux (25836): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+E/SQLiteLog( 2905): (284) automatic index on crash_info_summary(package_name_touched)
+E/OpenGLRenderer( 3147): SFEffectCache:clear(), mSize = 0
+E/ViewRootImpl( 3147): sendUserActionEvent() mView == null
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/AndroidRuntime(25836): FATAL EXCEPTION: Thread-22537
+E/AndroidRuntime(25836): Process: edu.neu.madcourse.adibalwani, PID: 25836
+E/AndroidRuntime(25836): java.lang.ArrayIndexOutOfBoundsException: length=60121; index=60121
+E/AndroidRuntime(25836): 	at edu.neu.madcourse.adibalwani.wordgame.GameFragment$Dictionary.loadDictionary(GameFragment.java:351)
+E/AndroidRuntime(25836): 	at edu.neu.madcourse.adibalwani.wordgame.GameFragment$Dictionary.run(GameFragment.java:383)
+E/android.os.Debug( 3147): ro.product_ship = true
+E/android.os.Debug( 3147): ro.debug_level = 0x4f4c
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/SQLiteLog( 2905): (284) automatic index on crash_info_summary(package_name_touched)
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/Zygote  (26268): MountEmulatedStorage()
+E/Zygote  (26268): v2
+E/SELinux (26268): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+E/OpenGLRenderer( 3147): SFEffectCache:clear(), mSize = 0
+E/ViewRootImpl( 3147): sendUserActionEvent() mView == null
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/native  ( 3147): do suspend false
+E/MtpServerJNI( 2963): server is null in send_object_removed
+E/WifiStateMachine( 3147): result: 0, Moved BSSID: 18:64:72:2c:d7:d0
+E/WifiStateMachine( 3147): WifiStateMachine: handleSuccessfulIpConfiguration and no scan results"NUwave"WPA_EAP
+E/ctxmgr  ( 4204): [PowerConnectionProducer]Could not write powerInfo=Plug state: 2 BatteryLevel: 0.83, status=Status{statusCode=unknown status code: 7503, resolution=null}
+E/AndroidRuntime(26268): FATAL EXCEPTION: Thread-22542
+E/AndroidRuntime(26268): Process: edu.neu.madcourse.adibalwani, PID: 26268
+E/AndroidRuntime(26268): java.lang.ArrayIndexOutOfBoundsException: length=60121; index=60121
+E/AndroidRuntime(26268): 	at edu.neu.madcourse.adibalwani.wordgame.GameFragment$Dictionary.loadDictionary(GameFragment.java:351)
+E/AndroidRuntime(26268): 	at edu.neu.madcourse.adibalwani.wordgame.GameFragment$Dictionary.run(GameFragment.java:383)
+E/android.os.Debug( 3147): ro.product_ship = true
+E/android.os.Debug( 3147): ro.debug_level = 0x4f4c
+E/SQLiteLog( 2905): (284) automatic index on crash_info_summary(package_name_touched)
+E/Zygote  (27267): MountEmulatedStorage()
+E/Zygote  (27267): v2
+E/SELinux (27267): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+E/OpenGLRenderer( 3147): SFEffectCache:clear(), mSize = 0
+E/ViewRootImpl( 3147): sendUserActionEvent() mView == null
+--------- beginning of system
+E/Watchdog( 3147): !@Sync 3955
+E/Watchdog( 3147): !@Sync 3956
+E/Watchdog( 3147): !@Sync 3957
+E/Watchdog( 3147): !@Sync 3958
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/AffinityControl(28990): AffinityControl: registerfunction enter
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29013): MountEmulatedStorage()
+E/Zygote  (29013): v2
+E/SELinux (29013): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29067): MountEmulatedStorage()
+E/Zygote  (29067): v2
+E/SELinux (29067): [DEBUG] get_category: variable seinfo: shared sensitivity: NULL, cateogry: NULL
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29091): MountEmulatedStorage()
+E/Zygote  (29091): v2
+E/SELinux (29091): [DEBUG] get_category: variable seinfo: shared sensitivity: NULL, cateogry: NULL
+E/SamsungIME( 4039): mOCRHelper is null
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29113): MountEmulatedStorage()
+E/Zygote  (29113): v2
+E/SELinux (29113): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/SamsungIME( 4039): mOCRHelper is null
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29133): MountEmulatedStorage()
+E/Zygote  (29133): v2
+E/SELinux (29133): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/RCPManagerService( 3147):  PackageReceiver onReceive() Failed to load meta-data, NullPointer: Attempt to invoke virtual method 'java.lang.String android.os.Bundle.getString(java.lang.String)' on a null object reference
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29154): MountEmulatedStorage()
+E/Zygote  (29154): v2
+E/SELinux (29154): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29171): MountEmulatedStorage()
+E/Zygote  (29171): v2
+E/SELinux (29171): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29186): MountEmulatedStorage()
+E/Zygote  (29186): v2
+E/SELinux (29186): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29202): MountEmulatedStorage()
+E/Zygote  (29202): v2
+E/SELinux (29202): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29217): MountEmulatedStorage()
+E/Zygote  (29217): v2
+E/SELinux (29217): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29234): MountEmulatedStorage()
+E/Zygote  (29234): v2
+E/SELinux (29234): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29251): MountEmulatedStorage()
+E/Zygote  (29251): v2
+E/SELinux (29251): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/SQLiteLog(29251): (284) automatic index on titles(filter_id)
+E/Zygote  (29266): MountEmulatedStorage()
+E/Zygote  (29266): v2
+E/SELinux (29266): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/NetworkScheduler.SchedulerReceiver( 4204): Invalid parameter app
+E/NetworkScheduler.SchedulerReceiver( 4204): Invalid package name : Perhaps you didn't include a PendingIntent in the extras?
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29285): MountEmulatedStorage()
+E/Zygote  (29285): v2
+E/SELinux (29285): [DEBUG] get_category: variable seinfo: samsung sensitivity: NULL, cateogry: NULL
+E/SPPClientService(29285): ShipBuild Binary : True
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29303): MountEmulatedStorage()
+E/Zygote  (29303): v2
+E/SELinux (29303): [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29341): MountEmulatedStorage()
+E/Zygote  (29341): v2
+E/SELinux (29341): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+E/Vold    ( 2547): Failed to find mounted volume for /storage/extSdCard/Android/data/com.google.android.apps.docs/cache/
+E/AASAservice-TokenRule( 6400): parseToken() : TokenFile is null
+E/AASAservice-UpdateReceiver( 6400): AASARuleUpdateResult() : Rule file is not exist.
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29356): MountEmulatedStorage()
+E/Zygote  (29356): v2
+E/SELinux (29356): [DEBUG] get_category: variable seinfo: samsung sensitivity: NULL, cateogry: NULL
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29374): MountEmulatedStorage()
+E/Zygote  (29374): v2
+E/SELinux (29374): [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+E/FilterInstaller(29217): installFilters
+E/FilterInstaller(29217): There is no requred permission
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29395): MountEmulatedStorage()
+E/Zygote  (29395): v2
+E/SELinux (29395): [DEBUG] get_category: variable seinfo: samsung sensitivity: NULL, cateogry: NULL
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29421): MountEmulatedStorage()
+E/Zygote  (29421): v2
+E/SELinux (29421): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+E/GMPM    (29421): getGoogleAppId failed with status: 10
+E/GMPM    (29421): Uploading is not possible. App measurement disabled
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29465): MountEmulatedStorage()
+E/Zygote  (29465): v2
+E/SELinux (29465): [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+E/Vold    ( 2547): Failed to find mounted volume for /storage/extSdCard/Android/data/com.google.android.apps.magazines/cache/
+E/Vold    ( 2547): Failed to find mounted volume for /storage/extSdCard/Android/data/com.google.android.apps.magazines/files/
+E/Vold    ( 2547): Failed to find mounted volume for /storage/extSdCard/Android/data/com.google.android.apps.magazines/cache/
+E/Vold    ( 2547): Failed to find mounted volume for /storage/extSdCard/Android/data/com.google.android.apps.magazines/files/
+E/SysUtils(29465): ApplicationContext is null in ApplicationStatus
+E/NetworkScheduler.SchedulerReceiver( 4204): Invalid parameter app
+E/NetworkScheduler.SchedulerReceiver( 4204): Invalid package name : Perhaps you didn't include a PendingIntent in the extras?
+E/Vold    ( 2547): Failed to find mounted volume for /storage/extSdCard/Android/data/com.facebook.katana/files/
+E/Vold    ( 2547): Failed to find mounted volume for /storage/extSdCard/Android/data/com.facebook.katana/files/
+E/Watchdog( 3147): !@Sync 3959
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29566): MountEmulatedStorage()
+E/Zygote  (29566): v2
+E/SELinux (29566): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29589): MountEmulatedStorage()
+E/Zygote  (29589): v2
+E/SELinux (29589): [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+E/SQLiteLog(29589): (1) no such table: mmsconfig
+E/Babel_SMS(29589): canonicalizeMccMnc: invalid mccmnc nullnull
+E/PMBA    ( 3147): No global metadata in state file!
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29621): MountEmulatedStorage()
+E/Zygote  (29621): v2
+E/SELinux (29621): [DEBUG] get_category: variable seinfo: release sensitivity: NULL, cateogry: NULL
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29640): MountEmulatedStorage()
+E/Zygote  (29640): v2
+E/SELinux (29640): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29655): MountEmulatedStorage()
+E/Zygote  (29655): v2
+E/SELinux (29655): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29677): MountEmulatedStorage()
+E/Zygote  (29677): v2
+E/SELinux (29677): [DEBUG] get_category: variable seinfo: release sensitivity: NULL, cateogry: NULL
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (29984): MountEmulatedStorage()
+E/Zygote  (29984): v2
+E/SELinux (29984): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+E/GMPM    (29984): getGoogleAppId failed with status: 10
+E/GMPM    (29984): Uploading is not possible. App measurement disabled
+E/Watchdog( 3147): !@Sync 3960
+E/Vold    ( 2547): Failed to find mounted volume for /storage/extSdCard/Android/data/com.facebook.orca/files/
+E/Vold    ( 2547): Failed to find mounted volume for /storage/extSdCard/Android/data/com.facebook.orca/files/
+E/AndroidRuntime(29566): FATAL EXCEPTION: Thread-22657
+E/AndroidRuntime(29566): Process: edu.neu.madcourse.adibalwani, PID: 29566
+E/AndroidRuntime(29566): java.lang.ArrayIndexOutOfBoundsException: length=60121; index=60121
+E/AndroidRuntime(29566): 	at edu.neu.madcourse.adibalwani.wordgame.GameFragment$Dictionary.loadDictionary(GameFragment.java:351)
+E/AndroidRuntime(29566): 	at edu.neu.madcourse.adibalwani.wordgame.GameFragment$Dictionary.run(GameFragment.java:383)
+E/android.os.Debug( 3147): ro.product_ship = true
+E/android.os.Debug( 3147): ro.debug_level = 0x4f4c
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (30150): MountEmulatedStorage()
+E/Zygote  (30150): v2
+E/SELinux (30150): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+E/SQLiteLog( 2905): (284) automatic index on crash_info_summary(package_name_touched)
+E/ViewRootImpl( 3147): sendUserActionEvent() mView == null
+E/OpenGLRenderer( 3147): SFEffectCache:clear(), mSize = 0
+E/Watchdog( 3147): !@Sync 3961
+E/Watchdog( 3147): !@Sync 3962
+E/Watchdog( 3147): !@Sync 3963
+E/AffinityControl(31718): AffinityControl: registerfunction enter
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (31735): MountEmulatedStorage()
+E/Zygote  (31735): v2
+E/SELinux (31735): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (31788): MountEmulatedStorage()
+E/Zygote  (31788): v2
+E/SELinux (31788): [DEBUG] get_category: variable seinfo: shared sensitivity: NULL, cateogry: NULL
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (31829): MountEmulatedStorage()
+E/Zygote  (31829): v2
+E/SELinux (31829): [DEBUG] get_category: variable seinfo: shared sensitivity: NULL, cateogry: NULL
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (31855): MountEmulatedStorage()
+E/Zygote  (31855): v2
+E/SELinux (31855): [DEBUG] get_category: variable seinfo: shared sensitivity: NULL, cateogry: NULL
+E/SamsungIME( 4039): mOCRHelper is null
+E/SamsungIME( 4039): mOCRHelper is null
+E/RCPManagerService( 3147):  PackageReceiver onReceive() Failed to load meta-data, NullPointer: Attempt to invoke virtual method 'java.lang.String android.os.Bundle.getString(java.lang.String)' on a null object reference
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (31884): MountEmulatedStorage()
+E/Zygote  (31884): v2
+E/SELinux (31884): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (31902): MountEmulatedStorage()
+E/Zygote  (31902): v2
+E/SELinux (31902): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/NetworkScheduler.SchedulerReceiver( 4204): Invalid parameter app
+E/NetworkScheduler.SchedulerReceiver( 4204): Invalid package name : Perhaps you didn't include a PendingIntent in the extras?
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (31930): MountEmulatedStorage()
+E/Zygote  (31930): v2
+E/SELinux (31930): [DEBUG] get_category: variable seinfo: samsung sensitivity: NULL, cateogry: NULL
+E/Vold    ( 2547): Failed to find mounted volume for /storage/extSdCard/Android/data/com.samsung.android.sdk.samsunglink/files/
+E/AffinityControl(31929): AffinityControl: registerfunction enter
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (31960): MountEmulatedStorage()
+E/Zygote  (31960): v2
+E/SELinux (31960): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+E/Vold    ( 2547): Failed to find mounted volume for /storage/extSdCard/Android/data/com.samsung.android.sdk.samsunglink/cache/
+E/art     (31960): Failed sending reply to debugger: Broken pipe
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (31982): MountEmulatedStorage()
+E/Zygote  (31982): v2
+E/SELinux (31982): [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+E/AASAservice-TokenRule( 6400): parseToken() : TokenFile is null
+E/AASAservice-UpdateReceiver( 6400): AASARuleUpdateResult() : Rule file is not exist.
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (32041): MountEmulatedStorage()
+E/Zygote  (32041): v2
+E/SELinux (32041): [DEBUG] get_category: variable seinfo: samsung sensitivity: NULL, cateogry: NULL
+E/Vold    ( 2547): Failed to find mounted volume for /storage/extSdCard/Android/data/com.google.android.apps.docs/cache/
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (32061): MountEmulatedStorage()
+E/Zygote  (32061): v2
+E/SELinux (32061): [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+E/FilterInstaller(29217): installFilters
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/FilterInstaller(29217): There is no requred permission
+E/Zygote  (32081): MountEmulatedStorage()
+E/Zygote  (32081): v2
+E/SELinux (32081): [DEBUG] get_category: variable seinfo: samsung sensitivity: NULL, cateogry: NULL
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (32119): MountEmulatedStorage()
+E/Zygote  (32119): v2
+E/SELinux (32119): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+E/GMPM    (32119): getGoogleAppId failed with status: 10
+E/GMPM    (32119): Uploading is not possible. App measurement disabled
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (32178): MountEmulatedStorage()
+E/Zygote  (32178): v2
+E/SELinux (32178): [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+E/Vold    ( 2547): Failed to find mounted volume for /storage/extSdCard/Android/data/com.google.android.apps.magazines/cache/
+E/Vold    ( 2547): Failed to find mounted volume for /storage/extSdCard/Android/data/com.google.android.apps.magazines/files/
+E/Vold    ( 2547): Failed to find mounted volume for /storage/extSdCard/Android/data/com.google.android.apps.magazines/cache/
+E/Vold    ( 2547): Failed to find mounted volume for /storage/extSdCard/Android/data/com.google.android.apps.magazines/files/
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (32201): MountEmulatedStorage()
+E/Zygote  (32201): v2
+E/SELinux (32201): [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+E/SysUtils(32178): ApplicationContext is null in ApplicationStatus
+E/SQLiteLog(32201): (283) recovered 840 frames from WAL file /data/user/0/com.google.android.gsf/databases/googlesettings.db-wal
+E/NetworkScheduler.SchedulerReceiver( 4204): Invalid parameter app
+E/NetworkScheduler.SchedulerReceiver( 4204): Invalid package name : Perhaps you didn't include a PendingIntent in the extras?
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/Vold    ( 2547): Failed to find mounted volume for /storage/extSdCard/Android/data/com.facebook.katana/files/
+E/Vold    ( 2547): Failed to find mounted volume for /storage/extSdCard/Android/data/com.facebook.katana/files/
+E/SQLiteLog(31930): (284) automatic index on LOCAL_DUPS(local_dup_id)
+E/Watchdog( 3147): !@Sync 3964
+E/SQLiteLog(31930): (284) automatic index on LOCAL_DUPS(local_dup_id)
+E/SQLiteLog(31930): (284) automatic index on LOCAL_DUPS(local_dup_id)
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/SQLiteLog(31930): (284) automatic index on LOCAL_DUPS(local_dup_id)
+E/AndroidRuntime(31960): FATAL EXCEPTION: Thread-22734
+E/AndroidRuntime(31960): Process: edu.neu.madcourse.adibalwani, PID: 31960
+E/AndroidRuntime(31960): java.lang.ArrayIndexOutOfBoundsException: length=60121; index=60121
+E/AndroidRuntime(31960): 	at edu.neu.madcourse.adibalwani.wordgame.GameFragment$Dictionary.loadDictionary(GameFragment.java:351)
+E/AndroidRuntime(31960): 	at edu.neu.madcourse.adibalwani.wordgame.GameFragment$Dictionary.run(GameFragment.java:383)
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (32414): MountEmulatedStorage()
+E/Zygote  (32414): v2
+F/ActivityManager( 3147): Activity Manager Crash
+F/ActivityManager( 3147): java.lang.IndexOutOfBoundsException: Invalid index 1, size is 1
+F/ActivityManager( 3147): 	at java.util.ArrayList.throwIndexOutOfBoundsException(ArrayList.java:255)
+F/ActivityManager( 3147): 	at java.util.ArrayList.get(ArrayList.java:308)
+F/ActivityManager( 3147): 	at com.android.server.am.ActivityStack.finishTopRunningActivityLocked(ActivityStack.java:3497)
+F/ActivityManager( 3147): 	at com.android.server.am.ActivityStackSupervisor.finishTopRunningActivityLocked(ActivityStackSupervisor.java:3423)
+F/ActivityManager( 3147): 	at com.android.server.am.ActivityManagerService.handleAppCrashLocked(ActivityManagerService.java:14752)
+F/ActivityManager( 3147): 	at com.android.server.am.ActivityManagerService.makeAppCrashingLocked(ActivityManagerService.java:14625)
+F/ActivityManager( 3147): 	at com.android.server.am.ActivityManagerService.crashApplication(ActivityManagerService.java:15391)
+F/ActivityManager( 3147): 	at com.android.server.am.ActivityManagerService.handleApplicationCrashInner(ActivityManagerService.java:14899)
+F/ActivityManager( 3147): 	at com.android.server.am.ActivityManagerService.handleApplicationCrash(ActivityManagerService.java:14881)
+F/ActivityManager( 3147): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1459)
+F/ActivityManager( 3147): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:3150)
+F/ActivityManager( 3147): 	at android.os.Binder.execTransact(Binder.java:446)
+E/JavaBinder( 3147): *** Uncaught remote exception!  (Exceptions are not yet supported across processes.)
+E/JavaBinder( 3147): java.lang.IndexOutOfBoundsException: Invalid index 1, size is 1
+E/JavaBinder( 3147): 	at java.util.ArrayList.throwIndexOutOfBoundsException(ArrayList.java:255)
+E/JavaBinder( 3147): 	at java.util.ArrayList.get(ArrayList.java:308)
+E/JavaBinder( 3147): 	at com.android.server.am.ActivityStack.finishTopRunningActivityLocked(ActivityStack.java:3497)
+E/JavaBinder( 3147): 	at com.android.server.am.ActivityStackSupervisor.finishTopRunningActivityLocked(ActivityStackSupervisor.java:3423)
+E/JavaBinder( 3147): 	at com.android.server.am.ActivityManagerService.handleAppCrashLocked(ActivityManagerService.java:14752)
+E/JavaBinder( 3147): 	at com.android.server.am.ActivityManagerService.makeAppCrashingLocked(ActivityManagerService.java:14625)
+E/JavaBinder( 3147): 	at com.android.server.am.ActivityManagerService.crashApplication(ActivityManagerService.java:15391)
+E/JavaBinder( 3147): 	at com.android.server.am.ActivityManagerService.handleApplicationCrashInner(ActivityManagerService.java:14899)
+E/JavaBinder( 3147): 	at com.android.server.am.ActivityManagerService.handleApplicationCrash(ActivityManagerService.java:14881)
+E/JavaBinder( 3147): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1459)
+E/JavaBinder( 3147): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:3150)
+E/JavaBinder( 3147): 	at android.os.Binder.execTransact(Binder.java:446)
+E/SELinux (32414): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+E/SQLiteLog( 2905): (284) automatic index on crash_info_summary(package_name_touched)
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (32508): MountEmulatedStorage()
+E/Zygote  (32508): v2
+E/SELinux (32508): [DEBUG] get_category: variable seinfo: untrusted sensitivity: NULL, cateogry: NULL
+E/SQLiteLog(32508): (1) no such table: mmsconfig
+E/Babel_SMS(32508): canonicalizeMccMnc: invalid mccmnc nullnull
+E/PMBA    ( 3147): No global metadata in state file!
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (32554): MountEmulatedStorage()
+E/Zygote  (32554): v2
+E/SELinux (32554): [DEBUG] get_category: variable seinfo: release sensitivity: NULL, cateogry: NULL
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (32575): MountEmulatedStorage()
+E/Zygote  (32575): v2
+E/SELinux (32575): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (32591): MountEmulatedStorage()
+E/Zygote  (32591): v2
+E/SELinux (32591): [DEBUG] get_category: variable seinfo: platform sensitivity: NULL, cateogry: NULL
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (32617): MountEmulatedStorage()
+E/Zygote  (32617): v2
+E/SELinux (32617): [DEBUG] get_category: variable seinfo: release sensitivity: NULL, cateogry: NULL
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/AndroidRuntime(32414): FATAL EXCEPTION: Thread-22772
+E/AndroidRuntime(32414): Process: edu.neu.madcourse.adibalwani, PID: 32414
+E/AndroidRuntime(32414): java.lang.ArrayIndexOutOfBoundsException: length=60121; index=60121
+E/AndroidRuntime(32414): 	at edu.neu.madcourse.adibalwani.wordgame.GameFragment$Dictionary.loadDictionary(GameFragment.java:351)
+E/AndroidRuntime(32414): 	at edu.neu.madcourse.adibalwani.wordgame.GameFragment$Dictionary.run(GameFragment.java:383)
+E/android.os.Debug( 3147): ro.product_ship = true
+E/android.os.Debug( 3147): ro.debug_level = 0x4f4c
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/SQLiteLog( 2905): (284) automatic index on crash_info_summary(package_name_touched)
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (32677): MountEmulatedStorage()
+E/Zygote  (32677): v2
+E/SELinux (32677): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+E/art     (32677): Failed sending reply to debugger: Broken pipe
+E/OpenGLRenderer( 3147): SFEffectCache:clear(), mSize = 0
+E/ViewRootImpl( 3147): sendUserActionEvent() mView == null
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/AndroidRuntime(32677): FATAL EXCEPTION: Thread-22802
+E/AndroidRuntime(32677): Process: edu.neu.madcourse.adibalwani, PID: 32677
+E/AndroidRuntime(32677): java.lang.ArrayIndexOutOfBoundsException: length=60121; index=60121
+E/AndroidRuntime(32677): 	at edu.neu.madcourse.adibalwani.wordgame.GameFragment$Dictionary.loadDictionary(GameFragment.java:351)
+E/AndroidRuntime(32677): 	at edu.neu.madcourse.adibalwani.wordgame.GameFragment$Dictionary.run(GameFragment.java:383)
+E/android.os.Debug( 3147): ro.product_ship = true
+E/android.os.Debug( 3147): ro.debug_level = 0x4f4c
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (  326): MountEmulatedStorage()
+E/Zygote  (  326): v2
+E/SELinux (  326): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+E/SQLiteLog( 2905): (284) automatic index on crash_info_summary(package_name_touched)
+E/OpenGLRenderer( 3147): SFEffectCache:clear(), mSize = 0
+E/ViewRootImpl( 3147): sendUserActionEvent() mView == null
+E/ViewRootImpl( 3147): sendUserActionEvent() mView == null
+E/SQLiteLog( 2905): (284) automatic index on crash_info_summary(package_name_touched)
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/PersonaManagerService( 3147): inState():  stateMachine is null !!
+E/AndroidRuntime(  326): FATAL EXCEPTION: Thread-22808
+E/AndroidRuntime(  326): Process: edu.neu.madcourse.adibalwani, PID: 326
+E/AndroidRuntime(  326): java.lang.ArrayIndexOutOfBoundsException: length=60121; index=60121
+E/AndroidRuntime(  326): 	at edu.neu.madcourse.adibalwani.wordgame.GameFragment$Dictionary.loadDictionary(GameFragment.java:351)
+E/AndroidRuntime(  326): 	at edu.neu.madcourse.adibalwani.wordgame.GameFragment$Dictionary.run(GameFragment.java:383)
+E/android.os.Debug( 3147): ro.product_ship = true
+E/android.os.Debug( 3147): ro.debug_level = 0x4f4c
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/SQLiteLog( 2905): (284) automatic index on crash_info_summary(package_name_touched)
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/InputDispatcher( 3147): channel ~ Channel is unrecoverably broken and will be disposed!
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/ActivityManager( 3147): checkUser: useridlist=null, currentuser=0
+E/Zygote  (  481): MountEmulatedStorage()
+E/Zygote  (  481): v2
+E/SELinux (  481): [DEBUG] get_category: variable seinfo: default sensitivity: NULL, cateogry: NULL
+E/ViewRootImpl( 3147): sendUserActionEvent() mView == null
+E/OpenGLRenderer( 3147): SFEffectCache:clear(), mSize = 0
+E/Watchdog( 3147): !@Sync 3965

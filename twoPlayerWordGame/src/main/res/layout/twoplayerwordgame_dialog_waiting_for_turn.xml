@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <ProgressBar
+            android:id="@+id/twoplayergame_dialog_waiting_for_turn_progress_bar"
+            style="?android:attr/progressBarStyle"
+            android:indeterminate="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:text="@string/twoplayerwordgame_wait_for_turn_dialog_waiting"
+            android:paddingLeft="@dimen/twoplayerwordgame_dialog_text_padding"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/twoplayergame_dialog_waiting_for_turn_progress_bar" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Virtual Basketball</string>
+
+    <!--Main Activity-->
+    <string name="turn_up_the_volume">TURN UP THE VOLUME</string>
+    <string name="tap_to_start">TAP TO START</string>
+
+    <!-- Home Screen Activity -->
+    <string name="resume_game">Resume Game</string>
+    <string name="new_game">New Game</string>
+    <string name="leaderboard">View LeaderBoard</string>
+
+    <!-- Game Activity -->
+    <string name="finalproject_activity_game_score">SCORE : 0</string>
+    <string name="finalproject_activity_keep_dribble">KEEP DRIBBLING</string>
+
+    <!-- Fragment labels -->
+    <!-- Register DialogFragment labels -->
+    <string name="finalproject_dialog_register_title">CREATE AN ACCOUNT TO BE PLACED ON THE LEADERBOARD</string>
+    <string name="finalproject_dialog_register_hint">ENTER NAME</string>
+    <string name="yourscore">Your Score</string>
+
+    <!-- Pause DialogFragment labels -->
+    <string name="finalproject_dialog_pause_resume">RESUME GAME</string>
+    <string name="finalproject_dialog_pause_end">END GAME</string>
+
+    <!-- EndGame DialogFragment labels -->
+    <string name="finalproject_dialog_endgame_game_over">GAME OVER</string>
+
+    <!-- Tutorial -->
+    <string name="holdphone">HOLD YOUR PHONE WITH BACK CAMERA FACING GROUND FOR 3 SECONDS</string>
+    <string name="holdphonehint">HOLD PHONE CORRECTLY</string>
+    <string name="tutorialdribbling">SYNCHRONIZE HAND MOVEMENT WITH THE DRIBBLE SOUND BY MOVING HAND IN UPWARD AND DOWNWARD MOTION</string>
+    <string name="tutorialdribblingtext">MORE DRIBBLES TO GO</string>
+    <string name="tutorialdribblingcount">5 \u0020</string>
+    <string name="tutorialnext">NEXT >></string>
+    <string name="tutorialvibration">SHOOT AFTER PHONE VIBRATION</string>
+    <string name="tutorialmediumcenter">MEDIUM CENTER</string>
+    <string name="play_tutorial">PLAY TUTORIAL</string>
+    <string name="medium_slow_fast_tells_the_time_delay_between_dribble_and_shoot">Medium,Slow,Fast - indicates the time delay in seconds between dribble and shoot</string>
+    <string name="let_s_try">Let\'s Try !</string>
+    <string name="shoot_in">SHOOT IN : </string>
+    <string name="let_s_try_again">Let\'s Try Again !</string>
+    <string name="skiptutorial"><![CDATA[SKIP >>]]></string>
+    <string name="rank">Rank</string>
+    <string name="name">Name</string>
+    <string name="score">Score</string>
+    <string name="hold_the_phone_in_upright_position">HOLD THE PHONE IN UPRIGHT POSITION</string>
+
+</resources>

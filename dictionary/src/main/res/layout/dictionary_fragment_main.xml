@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="@dimen/elevation_high"
+    android:background="@drawable/menu_background"
+    android:padding="@dimen/menu_padding"
+    tools:context="edu.neu.madcourse.adibalwani.dictionary.MainFragment">
+
+    <ProgressBar
+        android:id="@+id/dictionary_progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@android:style/Widget.ProgressBar.Horizontal"/>
+
+    <include layout="@layout/dictionary_menu_frame" />
+
+</FrameLayout>

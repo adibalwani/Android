@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:text="@string/twoplayerwordgame_private_match_dialog_title"
+        android:gravity="center"
+        android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding" />
+
+    <Button
+        android:id="@+id/twoplayerwordgame_private_match_dialog_join_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/menu_button_margin"
+        android:padding="@dimen/menu_button_padding"
+        android:text="@string/twoplayerwordgame_private_match_dialog_join_game"/>
+
+    <Button
+        android:id="@+id/twoplayerwordgame_private_match_dialog_host_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/menu_button_margin"
+        android:padding="@dimen/menu_button_padding"
+        android:text="@string/twoplayerwordgame_private_match_dialog_host_game"/>
+
+</LinearLayout>

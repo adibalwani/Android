@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Word Game</string>
+    <string name="wordgame_app_name">Word Game</string>
+
+    <!-- Button Labels -->
+    <string name="wordgame_new_game_label">New Game</string>
+    <string name="wordgame_continue_label">Resume Game</string>
+    <string name="wordgame_pause_label">Pause</string>
+    <string name="wordgame_quit_label">Quit</string>
+    <string name="wordgame_end_game_label">End Game</string>
+    <string name="wordgame_acknowledgements_label">Acknowledgements</string>
+    <string name="wordgame_instructions_label">Instructions</string>
+    <string name="wordgame_music_on_label">Turn Music ON</string>
+    <string name="wordgame_music_off_label">Turn Music OFF</string>
+
+    <!-- TextView Labels -->
+    <string name="wordgame_score_label">Score \u0020</string>
+    <string name="wordgame_timer_label">Time \u0020</string>
+
+    <!-- Init Values -->
+    <string name="wordgame_score_init">00</string>
+    <string name="wordgame_timer_init">0:00</string>
+
+    <!-- Instructions -->
+    <string name="wordgame_instruction_one">1) Find the longest word in each small boggle board within 1.5 minutes</string>
+    <string name="wordgame_instruction_two">2) To select an available letter (green color), click on it</string>
+    <string name="wordgame_instruction_three">3) Letters once selected, cannot be selected again</string>
+    <string name="wordgame_instruction_four">4) To lock the grid, press one of the selected letters (yellow color)</string>
+    <string name="wordgame_instruction_five">5) Once the grid is locked, the remaining letters in that grid disappears</string>
+    <string name="wordgame_instruction_six">6) For the next 1.5 minutes, find the longest word in the large boggle board</string>
+    <string name="wordgame_instruction_seven">7) Each available letter in the large board can be selected by clicking on it</string>
+    <string name="wordgame_instruction_eight">8) Selected letters can be picked again, but not back to back</string>
+    <string name="wordgame_instruction_nine">9) To make a new word, click on the currently formed word shown above the grid</string>
+
+    <!-- Acknowledgement -->
+    <string name="wordgame_about_ok">OK</string>
+    <string name="wordgame_stack_overflow_link">http://stackoverflow.com</string>
+    <string name="wordgame_stack_overflow">1) Stack Overflow:</string>
+    <string name="wordgame_linux_manual_link">http://linux.die.net/man</string>
+    <string name="wordgame_linux_manual">2) Manual for parsing input file into splits:</string>
+    <string name="wordgame_developer_guide_link">http://developer.android.com</string>
+    <string name="wordgame_developer_guide">3) Developer Guide:</string>
+    <string name="wordgame_list_view_link">http://androidexample.com</string>
+    <string name="wordgame_list_view">4) ListView Example:</string>
+    <string name="wordgame_music_link">http://orangefreesounds.com/drum-and-bass-loop</string>
+    <string name="wordgame_music_view">5) Background Music:</string>
+    <string name="wordgame_utt_view">6) Ultimate TicTacToe Example (from Texbook)</string>
+</resources>

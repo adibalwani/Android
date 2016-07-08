@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Dictionary</string>
+    <string name="dictionary_titlebar_name">Test Dictionary</string>
+
+    <!-- Button labels -->
+    <string name="dictionary_return_to_menu_label">Return to menu</string>
+    <string name="dictionary_clear_label">Clear</string>
+    <string name="dictionary_acknowledgements_label">Acknowledgements</string>
+
+    <!-- EditText labels -->
+    <string name="dictionary_search_edit_text_label">Search</string>
+
+    <!-- Acknowledgement -->
+    <string name="dictionary_about_ok">OK</string>
+    <string name="dictionary_partner">1) Discussed approach to load dictionary with Rachit Puri</string>
+    <string name="dictionary_stack_overflow_link">http://stackoverflow.com</string>
+    <string name="dictionary_stack_overflow">2) Stack Overflow:</string>
+    <string name="dictionary_linux_manual_link">http://linux.die.net/man</string>
+    <string name="dictionary_linux_manual">3) Manual for parsing input file into splits:</string>
+    <string name="dictionary_developer_guide_link">http://developer.android.com</string>
+    <string name="dictionary_developer_guide">4) Developer Guide:</string>
+    <string name="dictionary_list_view_link">http://androidexample.com</string>
+    <string name="dictionary_list_view">5) ListView Example:</string>
+</resources>

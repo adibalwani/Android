@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Communication</string>
+    <string name="communication_titlebar_name">Communication</string>
+
+    <!-- Button labels -->
+    <string name="communication_register_label">Register</string>
+    <string name="communication_unregister_label">Unregister</string>
+    <string name="communication_send_label">Send Message</string>
+    <string name="communication_acknowledgements_label">Acknowledgements</string>
+    <string name="communication_quit_label">Quit</string>
+
+    <!-- RegisterDialogFragment labels -->
+    <string name="communication_register_dialog_edittext_hint">Username:</string>
+
+    <!-- SendDialogFragment labels -->
+    <string name="communication_send_dialog_username_hint">Receiver Username:</string>
+    <string name="communication_send_dialog_message_hint">Message:</string>
+
+    <!-- CustomDialogFragment labels -->
+    <string name="communication_about_ok">OK</string>
+    <string name="communication_stack_overflow_link">http://stackoverflow.com</string>
+    <string name="communication_stack_overflow">1) Stack Overflow:</string>
+    <string name="communication_gcm_example_link">https://github.com/dharammaniar/Android-Examples</string>
+    <string name="communication_gcm_example">2) GCM example:</string>
+    <string name="communication_firebase_example_link">https://github.com/deryl27/FireBaseDemo</string>
+    <string name="communication_firebase_example">3) Firebase example:</string>
+    <string name="communication_developer_guide_link">http://developer.android.com</string>
+    <string name="communication_developer_guide">4) Developer Guide:</string>
+
+</resources>

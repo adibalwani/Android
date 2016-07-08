@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dictionary_menu_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/dictionary_search_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:padding="@dimen/menu_button_padding"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:hint="@string/dictionary_search_edit_text_label"/>
+
+        <Button
+            android:id="@+id/dictionary_clear_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:padding="@dimen/menu_button_padding"
+            android:layout_gravity="center"
+            android:text="@string/dictionary_clear_label" />
+
+        <Button
+            android:id="@+id/dictionary_acknowledgements_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:padding="@dimen/menu_button_padding"
+            android:layout_gravity="center"
+            android:text="@string/dictionary_acknowledgements_label" />
+
+        <Button
+            android:id="@+id/dictionary_return_to_menu_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/menu_button_margin"
+            android:padding="@dimen/menu_button_padding"
+            android:layout_gravity="center"
+            android:text="@string/dictionary_return_to_menu_label" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/dictionary_word_list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

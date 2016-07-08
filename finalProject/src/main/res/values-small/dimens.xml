@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="finalproject_edit_text_border_thickness">0dp</dimen>
+    <dimen name="finalproject_edit_text_stroke_width">3dp</dimen>
+    <dimen name="finalproject_edit_text_corner_radius">5dp</dimen>
+    <dimen name="finalproject_dialog_title_bottom_padding">4dp</dimen>
+    <dimen name="finalproject_dialog_padding">24dp</dimen>
+    <dimen name="finalproject_edit_text_margin">8dp</dimen>
+    <dimen name="finalproject_pause_left_margin">10dp</dimen>
+    <dimen name="finalproject_pause_top_margin">5dp</dimen>
+    <dimen name="finalproject_main_text">48dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="tutorial_textsize">14sp</dimen>
+    <dimen name="tutorial_textsize_dribbling">16sp</dimen>
+</resources>

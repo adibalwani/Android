@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">trickiestPart</string>
+    <string name="trickiest_part_titlebar_name">Trickiest Part</string>
+
+    <!-- Button labels -->
+    <string name="trickiest_part_detect_dribble_label">Detect Dribble</string>
+    <string name="trickiest_part_detect_shoot_label">Detect Shoot</string>
+    <string name="trickiest_part_quit_label">Quit</string>
+
+    <!-- Dribble Activity labels -->
+    <string name="trickiest_part_dribble_continue">Continue Dribbling...</string>
+    <string name="trickiest_part_dribble_game_over">Game Over</string>
+
+    <!-- Shoot Activity labels -->
+    <string name="trickiest_part_waiting_for_shoot">Waiting for Shoot</string>
+    <string name="trickiest_part_shot_taken">Nice Shot</string>
+</resources>

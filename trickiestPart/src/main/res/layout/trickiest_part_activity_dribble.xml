@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.neu.madcourse.adibalwani.trickiestpart.DribbleActivity">
+
+    <TextView
+        android:id="@+id/dribble_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:text="0"/>
+
+    <TextView
+        android:id="@+id/trickiest_part_dribble_game_over"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/trickiest_part_dribble_game_over"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="@dimen/menu_text_size"/>
+
+    <TextView
+        android:id="@+id/trickiest_part_dribble_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/trickiest_part_dribble_continue"
+        android:layout_gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="@dimen/menu_text_size"/>
+
+</FrameLayout>

@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- App-wide -->
+    <string name="app_name">NUMAD16S-AdibAlwani</string>
+    <string name="final_project_app_name">MAD16S-VirtualBasketball</string>
+    <string name="titlebar_name">Adib Alwani</string>
+
+    <!-- Button labels -->
+    <string name="about_label">About</string>
+    <string name="quit_label">Quit</string>
+    <string name="generate_error_label">Generate Error</string>
+    <string name="tic_tac_toe_label">Tic Tac Toe</string>
+    <string name="dictionary_label">Dictionary</string>
+    <string name="word_game_label">Word Game</string>
+    <string name="communication_label">Communication</string>
+    <string name="two_player_word_game_label">Two Player Word Game</string>
+    <string name="two_player_trickiest_part_label">Trickiest Part</string>
+    <string name="final_project_label">Final Project</string>
+
+    <!-- About Button -->
+    <string name="about_name">Adib Alwani</string>
+    <string name="about_email">alwani.a@husky.neu.edu</string>
+    <string name="about_year">2nd year MS</string>
+    <string name="about_degree">Computer Science</string>
+    <string name="about_team">Team Member:</string>
+    <string name="about_team_name">Rachit Puri</string>
+    <string name="about_team_email">puri.rac@husky.neu.edu</string>
+    <string name="about_team_year">2nd year MS</string>
+    <string name="about_team_degree">Computer Science</string>
+    <string name="about_ok">OK</string>
+    <string name="about_default_device_id">0000000000000000</string>
+
+    <!-- Final Project Button -->
+    <string name="final_project_activity">Virtual Basketball</string>
+    <string name="final_project_activity_description">App Description</string>
+    <string name="acknowledgement_label">View Acknowledgements</string>
+    <string name="start_final_project_label">Start Final Project</string>
+
+    <!-- AcknowledgmentFragment labels -->
+    <string name="fp_about_ok">OK</string>
+    <string name="fp_stack_overflow_link">http://stackoverflow.com</string>
+    <string name="fp_stack_overflow">1) Stack Overflow:</string>
+    <string name="fp_developer_guide_link">http://developer.android.com</string>
+    <string name="fp_developer_guide">2) Developer Guide:</string>
+    <string name="fp_list_view_link">http://androidexample.com</string>
+    <string name="fp_list_view">3) ListView Example:</string>
+    <string name="fp_music_link">http://tinyurl.com/h489cqh</string>
+    <string name="fp_music_view">4) Background Music:</string>
+    <string name="fp_dribble_music_link">http://tinyurl.com/zyhdnsp</string>
+    <string name="fp_dribble_music_view">5) Dribble Sound:</string>
+    <string name="fp_utt_view">6) Ultimate TicTacToe Example (from Texbook)</string>
+    <string name="fp_firebase_example_link">https://github.com/deryl27/FireBaseDemo</string>
+    <string name="fp_firebase_example">7) Firebase example:</string>
+    <string name="fp_bb_image_link">http://tinyurl.com/ha585pn</string>
+    <string name="fp_bb_image_view">8) Basketball image:</string>
+    <string name="fp_bb_net_image_link">http://tinyurl.com/zpnkahc</string>
+    <string name="fp_bb_net_image_view">9) Basketball Net image:</string>
+    <string name="fp_app_icon_image_link">http://tinyurl.com/jkgdedu</string>
+    <string name="fp_app_icon_image_view">10) App icon:</string>
+    <string name="fp_phone_mode">Tested the project on Nexus 5</string>
+
+</resources>

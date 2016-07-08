@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view_finalproject_activity_game"
+    android:orientation="vertical"
+    android:background="@color/ripple_material_light"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/finalproject_activity_game_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_pause_circle_outline_black_48dp"
+            android:layout_marginTop="@dimen/finalproject_pause_top_margin"
+            android:layout_marginBottom="@dimen/finalproject_pause_top_margin"
+            android:layout_marginLeft="@dimen/finalproject_pause_left_margin"/>
+
+        <TextView
+            android:id="@+id/finalproject_activity_game_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/finalproject_activity_game_score"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/finalproject_activity_game_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="@dimen/finalproject_main_text"
+        android:text="@string/finalproject_activity_keep_dribble"
+        android:gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,1 @@
+include ':app', ':dictionary', ':wordGame', ':communication', ':twoPlayerWordGame', ':trickiestPart', ':finalProject', 'ticTacToev6'

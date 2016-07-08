@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0,1,2,3">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/twoplayerwordgame_leaderboard_dialog_player"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black_color"
+            android:gravity="center"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding" />
+
+        <TextView
+            android:id="@+id/twoplayerwordgame_leaderboard_dialog_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black_color"
+            android:gravity="center"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding" />
+
+        <TextView
+            android:id="@+id/twoplayerwordgame_leaderboard_dialog_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black_color"
+            android:gravity="center"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding" />
+
+        <TextView
+            android:id="@+id/twoplayerwordgame_leaderboard_dialog_partner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black_color"
+            android:gravity="center"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding" />
+
+    </TableRow>
+
+</TableLayout>

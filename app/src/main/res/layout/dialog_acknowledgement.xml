@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/twoplayerwordgame_dialog_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:text="@string/twoplayerwordgame_acknowledgements_label"
+            android:layout_gravity="center"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fp_stack_overflow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fp_stack_overflow_link"
+            android:autoLink="web"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fp_developer_guide" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fp_developer_guide_link"
+            android:autoLink="web"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fp_list_view" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fp_list_view_link"
+            android:autoLink="web"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fp_music_view" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fp_music_link"
+            android:autoLink="web"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fp_dribble_music_view" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fp_dribble_music_link"
+            android:autoLink="web"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fp_utt_view"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fp_firebase_example" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fp_firebase_example_link"
+            android:autoLink="web"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fp_bb_image_view" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fp_bb_image_link"
+            android:autoLink="web"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fp_bb_net_image_view" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fp_bb_net_image_link"
+            android:autoLink="web"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fp_app_icon_image_view" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fp_app_icon_image_link"
+            android:autoLink="web"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/fp_phone_mode" />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/twoplayerwordgame_dialog_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:text="@string/twoplayerwordgame_acknowledgements_label"
+            android:layout_gravity="center"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_stack_overflow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_stack_overflow_link"
+            android:autoLink="web"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_linux_manual" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_linux_manual_link"
+            android:autoLink="web"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_developer_guide" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_developer_guide_link"
+            android:autoLink="web"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_list_view" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_list_view_link"
+            android:autoLink="web"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_music_view" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_music_link"
+            android:autoLink="web"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_utt_view"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_gcm_example" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_gcm_example_link"
+            android:autoLink="web"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_firebase_example" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_firebase_example_link"
+            android:autoLink="web"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_shake_example" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twoplayerwordgame_shake_example_link"
+            android:autoLink="web"
+            android:paddingBottom="@dimen/twoplayerwordgame_dialog_text_padding"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+</ScrollView>
